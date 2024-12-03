@@ -2,7 +2,7 @@ const { nowInSec, SkyWayAuthToken, SkyWayContext, SkyWayRoom, SkyWayStreamFactor
 
 const url = 'wss://mine2525.tcpexposer.com'; //サーバー側と接続するためのws/// ws to connect with the server side
 const slider = {};
-let Members = 5;
+let Members = 0;
 const userLang = navigator.language || navigator.userLanguage;
 let lang = userLang.startsWith('ja') ? 'ja' : 'en';
 
